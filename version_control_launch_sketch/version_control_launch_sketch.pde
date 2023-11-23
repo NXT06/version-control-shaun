@@ -12,6 +12,6 @@ void draw(){
     particles.get(i).display();
   }
   if(mousePressed == true) {
-    particles.add(new Particle(mouseX, mouseY));
+    particles.add(new Particle(mouseX, mouseY, random(0, 255), random(0, 255), random(0, 255)));
   }
 }
